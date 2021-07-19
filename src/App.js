@@ -1,16 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import TodoList from './components/TodoList';
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header>
-        Header
+        <Nav/>
       </header>
-      <body>
+      <main>
         <TodoList/>
-      </body>
+      </main>
     </div>
   );
 }
